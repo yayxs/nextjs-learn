@@ -13,9 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='min-h-screen leading-normal scroll-smooth'>
-        <Sidebar />
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
